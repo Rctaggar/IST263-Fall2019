@@ -1,0 +1,25 @@
+body {
+    background-image: url("gradient_bg.png");
+}
+
+
+    h1 {
+        background-color: green;
+      }
+      
+      div {
+        background-color: lightblue;
+      }
+      
+      p {
+        background-color: yellow;
+      }
+      p.one {
+        border-style: solid;
+        border-width: 5px;
+      }
+      p { 
+        font-family:"Arial", Times, serif;
+      }
+    
+     
