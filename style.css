@@ -1,25 +1,29 @@
-body {
-    background-image: url("gradient_bg.png");
-}
+ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
 
+        li {
+            padding: 10px;
+            position: none;
+            list-style-type: none;
+        
 
-    h1 {
-        background-color: green;
-      }
-      
-      div {
-        background-color: lightblue;
-      }
-      
-      p {
-        background-color: yellow;
-      }
-      p.one {
-        border-style: solid;
-        border-width: 5px;
-      }
-      p { 
-        font-family:"Arial", Times, serif;
-      }
-    
-     
+        }
+
+        .odd {
+            padding: 10px;
+            position: none;
+            list-style-type: none;
+            background: #f1f1f1;
+        }
+        
+        .even {
+            padding: 10px;
+            position: none;
+            list-style-type: none;
+            background: #e1e1e1;
+        }
+        /* Pseudo clases */
+        /* Table width via pseudo-classes */
