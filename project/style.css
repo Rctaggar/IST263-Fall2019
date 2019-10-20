@@ -1,0 +1,42 @@
+.main-logo {
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+nav {
+    text-align: center;
+}
+
+.video {
+    /* text-align: center; */
+    margin:0 auto;
+    margin-top: 20px;
+    /* width:600px; */
+    display: inline-block;
+}
+
+.left-image {
+    float:left;
+    width:150px;
+    clear:both;
+    margin-left: 50px;
+}
+
+.right-image {
+    float:right;
+    width:150px;
+    margin-right: 50px;
+}
+
+.side-image {
+    width: 100%;
+}
+
+.main-container {
+    width: 100%;
+    text-align: center;
+    
+}

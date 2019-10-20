@@ -1,0 +1,30 @@
+.main-logo {
+    text-align: center;
+    margin:auto;
+    width: 50%;
+    height: 50%;
+
+}
+
+nav {
+    text-align: center;
+}
+
+ul#menu li {
+    display:inline;
+  }
+  ul {
+    width: 70%;
+    margin: auto;
+}
+.video {
+    /* text-align: center; */
+    margin:0 auto;
+    margin-top: 20px;
+    /* width:600px; */
+    display: inline-block;
+
+}
+div.c {
+    text-align: right;
+  } 
