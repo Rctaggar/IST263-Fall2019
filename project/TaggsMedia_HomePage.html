@@ -10,11 +10,89 @@
   <div class="main-logo">
     <img class="main-logo" src="Logo Color@0.5x-100.jpg">
   </div>
-  <nav>
-    <a href="TaggsMedia_WhoWeAre.html" >Who We Are</a>
-    <a href="TaggsMedia_WhatWeDo.html">What We Do</a>
-    <a href="TaggsMedia_ContactUs.html">Contact Us</a>
-  </nav>
+  <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      .dropdown .dropbtn {
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      </style>
+  <nav><div class="main" id="section1"><div class="navbar">
+      <a href="#section2">Who We Are</a>
+      <a href="TaggsMedia_ContactUs.html">Contact Us</a>
+      <div class="dropdown">
+          <button class="dropbtn">What We Do
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="TaggsMedia_WhatWeDo.html">Weddings/Family Events</a>
+                <a href="#">Business/Marketing</a>
+                <a href="#">Event/Experience Recaps</a>
+              </div>
+          
+            </div> 
+          </div>
+      
+     
+    </nav></div>
   <br>
   <div class="main-container">
     <div class="left-image">
@@ -30,7 +108,71 @@
         <img class="side-image" src="Icon Pattern Single Blue@2x-100.jpg">
         <img class="side-image" src="Icon Pattern Single Blue@2x-100.jpg">
     </div>
-  </div>
+
+    <style>
+        .home-blurb {
+            width: 100%;
+            display: flex;
+        }
+        .home-blurb h2 {
+        border: 3px solid black;
+        padding: 1em;
+        color: black;
+        font-size: 1.2em;
+        }
+        
+        .home-blurb p {
+        border:2px solid black;
+        background: #000;
+        color: #f2f2f2;
+        font-size: 1.2em;
+        padding: 1em;
+        }
+        .flex-1 {flex: 1;}
+        .flex-3 {flex: 3;}
+        .float-left {float: left;}
+        .float-left {float: right;}
+        </style>
+        </head>
+        <body>
+        <section style="width: 60%; border: 1px solid black; margin: 0 auto; padding: 2em;">
+        <article class="home-blurb float-right">
+                <div class="flex-1">
+                    
+            <h2>Description</h2>
+        </div>
+        <div class="flex-3">
+        <p>We are a young, vibrant media company that provides videography, photography, and other visual media content for individuals, groups, and businesses.</p>
+        </div>
+        </article>
+        <article class="home-blurb float-left">
+            <div class="flex-1">
+                <h2>Vision</h2>
+            </div>
+            <div class="flex-3">
+            <p>Our vision is that all groups and individuals who have a message or experience that they wish to capture and share will be able to do so in an affordable and exciting way.</p>
+            </div>
+                </article>
+        <article class="home-blurb float-right">
+                <div class="flex-1">
+            <h2>Values</h2>
+        </div>
+        <div class="flex-3">
+                <p>We value beauty, excitement, energy, intimacy, shared experiences, and faith.</p>
+        </div>
+                </article>
+                <article class="home-blurb float-left">
+                        <div class="flex-1">
+                            <h2>The Problem We Want To Solve</h2>
+                        </div>
+                        <div class="flex-3">
+                        <p>In the information age, individuals, families, businesses, communities, and organizations alike share the desire and need to capture, preserve, present, and share memories and information in a an engaging and high quality manner. Unfortunately, achieving these goals can be time consuming and can come at a high cost.</p>
+                        </div>
+                        </article>
+                        <div class="main" id="section2">
+                        <a href="#section1">Ready To Talk?</a>
+                        </div>
+        </section>
     
     
 
