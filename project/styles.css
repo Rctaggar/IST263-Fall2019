@@ -2,8 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 .navbar-image {
   padding:20px;
 }
@@ -162,13 +160,13 @@ a:hover {
 
 
 .btn-primary {
-  color:white;
-  background-color:#CA852A;
+  color:#0C1932;
+  background-color:white;
   border-color:#CA852A;
 }
 
 .btn-primary:hover {
   color:white;
-  background-color:rgb(87, 56, 17);
-  border-color:rgb(87, 56, 17);
+  background-color:#CA852A;
+  border-color:#CA852A;
 }
