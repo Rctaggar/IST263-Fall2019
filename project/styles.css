@@ -48,13 +48,13 @@ label {
 
 
 .video {
-    background-image: url("IconPatternFullBlue.png");
+    background-image: url("images/IconPatternFullBlue.png");
     margin-bottom:50px;
 }
 
 
 .contact {
-    background-image: url("LensePatternColor.png");
+    background-image: url("images/LensePatternColor.png");
 }
 
 .contact-background {
